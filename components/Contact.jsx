@@ -49,7 +49,7 @@ const Contact = () => {
                     {/* right */}
                     <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4 '>
-                            <form method="POST" action='https://formsubmit.co/c3353ffa02d6e326082e2d34ca4c368f'> 
+                            <form method="POST" action='https://formsubmit.co/eugenetye123@gmail.com'> 
 
                                 {/* Honeypot */}
                                 <input type='text' name='_honey' className='hidden'></input>
