@@ -82,7 +82,7 @@ const Navbar = () => {
                 <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500 dark:bg-gray-900" : 'fixed left-[-100%] top-0 p-10 ease-in duration-500 '}>
                     <div>
                         <div className="flex w-full items-center justify-between">
-                            <Image src="/../public/assets/navLogo.png" width = "87" height="35" alt="/" />
+                            <Image src = {logo} width = "87" height="35" alt="/" />
                                 <div onClick={handleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                                     <AiOutlineClose />
                                 </div>
