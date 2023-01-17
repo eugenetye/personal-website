@@ -66,7 +66,7 @@ const Navbar = () => {
                             <li className = 'ml-10 text-sm uppercase hover:border-b dark:text-gray-300'>Projects</li>
                         </Link>
                         <Link href='/#contact'>
-                            <li className = 'ml-10 text-sm uppercase hover:border-b dark:text-gray-300'>Contact</li>
+                            <li className = 'ml-10 text-sm uppercase hover:border-b dark:text-gray-300 mr-5'>Contact</li>
                         </Link>
                     </ul>
                     <div className='flex'>

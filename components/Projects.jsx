@@ -1,8 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import twitch from '../public/assets/projects/twitch.jpg'
-import property from '../public/assets/projects/property.jpg'
-import crypto from '../public/assets/projects/crypto.jpg'
+import stock from '../public/assets/projects/stock.jpg'
+import hearthstone from '../public/assets/projects/hearthstone.jpg'
+import doggo from '../public/assets/projects/doggo.jpg'
 import netflixpic from '../public/assets/projects/netflix.jpg'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
@@ -16,28 +16,28 @@ const Projects = () => {
                 <div className=' grid sm:grid grid-cols-1 md:grid-cols-2 gap-8 '>
 
                     <ProjectItem 
-                        title='Twitch' 
-                        backgroundImg={twitch} 
-                        projectURL='/twitch'
-                        language='Python'/>
+                        title='Stock Market Predictor' 
+                        backgroundImg={stock} 
+                        projectURL='/stockmarketpredictor'
+                        language='Python / Machine Learning'/>
 
                     <ProjectItem 
-                        title='Property Finder' 
-                        backgroundImg={property} 
-                        projectURL='/property'
-                        language='C, React, CSS'/>
+                        title='Hearthstone Card Parser' 
+                        backgroundImg={hearthstone} 
+                        projectURL='/hearthstone'
+                        language='C'/>
 
                     <ProjectItem 
-                        title='Crypto' 
-                        backgroundImg={crypto} 
-                        projectURL='/crypto'
-                        language='R'/>
+                        title='Image Classifier' 
+                        backgroundImg={doggo} 
+                        projectURL='/imageclassifier'
+                        language='Python / Deep Learning'/>
 
                     <ProjectItem 
-                        title='Netflix' 
+                        title='Coming soon' 
                         backgroundImg={netflixpic} 
                         projectURL='/netflix'
-                        language='HTML'/>
+                        language='Coming Soon'/>
 
                 </div>
             </div>
