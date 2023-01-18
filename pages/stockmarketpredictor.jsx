@@ -41,6 +41,9 @@ const stock = () => {
                             <div className=''>
                                 <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> pandas</p>
                             </div>
+                            <div className=''>
+                                <p className='py-2 flex items-center'><RiRadioButtonFill className='pr-1'/> Yahoo Finance API</p>
+                            </div>
                     </div>
                 </div>
 

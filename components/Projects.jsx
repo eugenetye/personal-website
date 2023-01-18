@@ -3,7 +3,7 @@ import Image from 'next/image'
 import stock from '../public/assets/projects/stock.jpg'
 import hearthstone from '../public/assets/projects/hearthstone.jpg'
 import doggo from '../public/assets/projects/doggo.jpg'
-import netflixpic from '../public/assets/projects/netflix.jpg'
+import toxic from '../public/assets/projects/toxic.jpg'
 import Link from 'next/link'
 import ProjectItem from './ProjectItem'
 
@@ -20,6 +20,12 @@ const Projects = () => {
                         backgroundImg={stock} 
                         projectURL='/stockmarketpredictor'
                         language='Python / Machine Learning'/>
+                    
+                    <ProjectItem 
+                        title='Toxic Comment Classification' 
+                        backgroundImg={toxic} 
+                        projectURL='/toxiccommentclassifier'
+                        language='Python / Deep Learning'/>
 
                     <ProjectItem 
                         title='Hearthstone Card Parser' 
@@ -33,11 +39,7 @@ const Projects = () => {
                         projectURL='/imageclassifier'
                         language='Python / Deep Learning'/>
 
-                    <ProjectItem 
-                        title='Coming soon' 
-                        backgroundImg={netflixpic} 
-                        projectURL='/netflix'
-                        language='Coming Soon'/>
+                    
 
                 </div>
             </div>
