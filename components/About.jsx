@@ -9,7 +9,7 @@ const About = () => {
                 <div className='col-span-2'>
                     <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                     <h2 className='py-4'>Who I Am</h2>
-                    <p className='py-2 text-gray-600 dark:text-gray-300'>My name is Wei Shun Tye, but people usually call me Eugene. I am currently a senior majoring in Computer Science at Western Michigan University (WMU). 
+                    <p className='py-2 text-gray-600 dark:text-gray-300'>My name is Wei Shun Tye, but people usually call me Eugene. I am currently a Software Engineer at Revision Autonomy. 
                     I have always been fascinated by the world of technology and am excited to learn more about how to design and build software that makes a difference in people's lives.
                     </p>
                     <p className='py-2 text-gray-600 dark:text-gray-300'>I am passionate about learning new technologies and am always seeking out opportunities to expand my knowledge and skills.

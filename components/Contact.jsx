@@ -23,8 +23,8 @@ const Contact = () => {
                             </div>
                             <div>
                                 <h2 className='py-2'>Eugene Tye</h2>
-                                <p>Aspiring Software Engineer</p>
-                                <p className='py-4'>I am actively looking for Summer 2023 internship positions. Feel free to contact me!</p>
+                                <p>Software Engineer</p>
+                                <p className='py-4'>I am actively looking for software engineering full time positions. Feel free to contact me!</p>
                             </div>
                             <div>
                             <p className='uppercase pt-8'>Connect With Me</p>
